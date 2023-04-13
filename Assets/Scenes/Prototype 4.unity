@@ -537,10 +537,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f66969df2ff6c1448c642628e204f50, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyPrefab: {fileID: 7556410445126728521, guid: 38cd4e9c9732e3845b6e43608e4638c2, type: 3}
-  powerupPrefab: {fileID: 43702247033867169, guid: 154daf54e6f6ed4418b93be22adb26c9, type: 3}
+  enemyPrefab:
+  - {fileID: 7556410445126728521, guid: 38cd4e9c9732e3845b6e43608e4638c2, type: 3}
+  - {fileID: 7556410445126728521, guid: 7be49c3f5369e1d428d7151ae4524b5f, type: 3}
+  powerupPrefabs:
+  - {fileID: 43702247033867169, guid: 154daf54e6f6ed4418b93be22adb26c9, type: 3}
+  - {fileID: 43702247033867169, guid: 7fa7d376b87f18f418518d9498ae89c5, type: 3}
+  - {fileID: 3332013855616304425, guid: ce39b34057c6ddb499c077bbe36ec45c, type: 3}
   enemyCount: 0
   waveNumber: 1
+  bossPrefab: {fileID: 8302483187205008292, guid: 272b7b43a1f876a4f9b1afa098fb0d29, type: 3}
+  miniEnemyPrefabs:
+  - {fileID: 328152681501900540, guid: 0d53710c0274e7041863e7f46dee19fc, type: 3}
+  - {fileID: 6843952191682700769, guid: 1ef58e20761e63447a5d51097bc7b8ad, type: 3}
+  bossRound: 1
 --- !u!1001 &1403545340
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -761,9 +771,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b7f75e53e76e82048af8600753824321, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  currentPowerUp: 0
+  rocketPrefab: {fileID: 2935735829748408628, guid: a7a172f87626a9b42aa7fd1aa8c3c1ea, type: 3}
   speed: 3
   hasPowerup: 0
   powerupIndicator: {fileID: 1537539042}
+  hangTime: 5
+  smashSpeed: 5
+  explosionForce: 5
+  explosionRadius: 5
 --- !u!1001 &7305732181041295649
 PrefabInstance:
   m_ObjectHideFlags: 0
