@@ -127,7 +127,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0371a15ac064ba4985a0e66890baf2b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0
+  speed: 6
   isBoss: 0
-  spawnInterval: 0
-  miniEnemySpawnCount: 0
+  spawnInterval: 5
+  miniEnemySpawnCount: 1
